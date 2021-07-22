@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first blog</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,500&family=Roboto:ital,wght@0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container ">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+             <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img class="img-fluid" src="images/Logo.png" alt="" width="150px" height="40px" class="d-inline-block align-text-top ml-3">
+      <!-- blogzine -->
+    </a>
+  </div>
+            <div class="container-fluid">
+            <!-- <a class="navbar-brand p-3" href="#">Navbar</a> -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link" href="#">Features</a>
+            <a class="nav-link" href="#">Pricing</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </div>
+    </div>
+  </div>
+  <div class="p-1 rounded ">
+      <button class="text-danger bg-danger text-light border-0 p-2 rounded" type="submit">Subscribe!</button>
+  </div>
+</nav>
+<div id="carouselExampleSlidesOnly" class="carousel slide  " data-bs-ride="carousel">
+    
+  <div class="carousel-inner mt-5 d-flex align-items-center  height ">
+    <div class="btn border-0">
+        <button class="border-0 bg-primary rounded btn">Trending</button>
+    </div>
+    <div class="slider w-75">
+        <div class="carousel-item active item mt-3">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas, similique.1.</p>
+    </div>
+    <div class="carousel-item item mt-3">
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, sequi! 2.</p>
+    </div>
+    <div class="carousel-item item mt-3">
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit, cum? 3.</p>
+    </div>
+    </div>
+  </div>
+</div>
+    </header>
+    <main>
+        <section class="container d-flex align-items-center ">
+            <div class="row ">
+                <div class="col-6 mt-5 mb-5">
+                    <!-- <img class="first-img rounded" src="images/photo-1.jpg" alt=""> -->
+                    <div class="card bg-dark text-white">
+  <img src="images/photo-1.jpg" class="card-img" alt="...">
+  <div class="card-img-overlay">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    <p class="card-text">Last updated 3 mins ago</p>
+  </div>
+</div>
+                </div>
+                <div class="col-6">
+                    <div class="row">
+                        <div class="col-12 ">
+                            <img class="img-fluid mb-4 mt-5 rounded" src="images/photo-2.jpg" alt="" >
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <img class="img-fluid  mb-5 rounded" src="images/photo-3.jpg" alt="">
+                        </div>
+                        <div class="col-6">
+                             <img class="img-fluid  mb-5 rounded" src="images/photo-4.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+            <!-- <div class="container-fluid">
+  <h1>Responsive Columns</h1>
+  <p>Resize the browser window to see the effect.</p>
+  <p>The columns will automatically stack on top of each other when the screen is less than 576px wide.</p>
+  <div class="row d-flex">
+    <div class="col-sm-6">
+        <div  style="background-color:lavender;"><img class="img-fluid" src="images/photo-1.jpg" alt=""></div>
+    </div>
+    <div class=" col-sm-6">
+    <div class="row">
+        <div class=" col-sm-12" style="background-color:lavenderblush;"><img class="img-fluid" src="images/photo-2.jpg" alt=""></div>
+    
+    <div class="row">
+        <div class=" col-sm-12 d-flex">
+    <div class="col-sm-6" style="background-color:lavender;"><img class="img-fluid" src="images/photo-3.jpg" alt=""></div>
+    <div class="col-sm-6" style="background-color:lavenderblush;"><img class="img-fluid" src="images/photo-4.jpg" alt=""></div>
+    </div>
+    </div>
+    </div>
+    </div>
+  </div>
+</div> -->
+            
+
+        </section>
+        <section class="container">
+            <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card">
+      <img src="images/photo-9.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/photo-8.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/photo-7.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card">
+      <img src="images/photo-6.jpg" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Card title</h5>
+        <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+      </div>
+    </div>
+  </div>
+</div>
+        </section>
+
+        <section class="container">
+            <div class="container bg-danger">
+  <div class="row">
+    <div class="col-9 bg-danger">.col-9</div>
+    <div class="col-6 bg-primary">.col-4<br>Since 9 + 4 = 13 &gt; 12, this 4-column-wide div gets wrapped onto a new line as one contiguous unit.</div>
+    <div class="col-12 bg-light">.col-6<br>Subsequent columns continue along the new line.</div>
+  </div>
+</div>
+        </section>
+    </main>
+    <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
